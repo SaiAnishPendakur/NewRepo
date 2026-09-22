@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  printf("SJCE lab");
+  printf("SJCE college");
+  scanf("sjce collge")
   return 0;
 }
