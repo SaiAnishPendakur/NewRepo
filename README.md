@@ -59,3 +59,30 @@ int main()
 
    return 0;
 }
+/* Write a program to print the size of various data types in C using ‘sizeof’ operator. */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   char ch;
+   int i;
+   float f;
+   double d;
+
+   system("clear");
+   printf("\nSize of Character Type is %ld in Byte(s)", sizeof(char));
+   printf("\nSize of Character Type is %ld in Byte(s)", sizeof(ch));
+
+   printf("\nSize of Integer Type is %ld in Byte(s)", sizeof(int));
+   printf("\nSize of Integer Type is %ld in Byte(s)", sizeof(i));
+
+   printf("\nSize of Float Type is %ld in Bytes", sizeof(float));
+   printf("\nSize of Float Type is %ld in Bytes", sizeof(f));
+
+   printf("\nSize of Double Type is %ld in Bytes", sizeof(double));
+   printf("\nSize of Double Type is %ld in Bytes", sizeof(d));
+
+   return 0;
+}
