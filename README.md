@@ -80,6 +80,15 @@ int main()
 
    printf("\nSize of Float Type is %ld in Bytes", sizeof(float));
    printf("\nSize of Float Type is %ld in Bytes", sizeof(f));
+   // Create variables
+int myNum = 5;             // Integer (whole number)
+float myFloatNum = 5.99;   // Floating point number
+char myLetter = 'D';       // Character
+
+// Print variables
+printf("%d\n", myNum);
+printf("%f\n", myFloatNum);
+printf("%c\n", myLetter);
 
    printf("\nSize of Double Type is %ld in Bytes", sizeof(double));
    printf("\nSize of Double Type is %ld in Bytes", sizeof(d));
